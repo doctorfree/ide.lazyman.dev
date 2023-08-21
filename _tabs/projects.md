@@ -2,8 +2,8 @@
 layout: post
 toc: true
 post_style: page
-icon: fas fa-gg-circle
-order: 8
+icon: fas fa-cubes
+order: 9
 ---
 
 [Doctorfree](https://github.com/doctorfree) maintains the following sister projects which may be of interest
