@@ -26,7 +26,7 @@ initialization file (typically `~/.bashrc` for Bash users or
 `~/.zshrc` for Zsh users).
 
 ```bash
-alias nvim="NVIM_APPNAME=nvim-LazyIde nvim"
+alias nvim="NVIM_APPNAME=lazyman/LazyIde nvim"
 ```
 
 ## NVIM_APPNAME environment variable
@@ -37,5 +37,5 @@ automatically tell Neovim to use `LazyIde`. To do so, add the following
 to your shell initialization file:
 
 ```bash
-export NVIM_APPNAME="nvim-LazyIde"
+export NVIM_APPNAME="lazyman/LazyIde"
 ```

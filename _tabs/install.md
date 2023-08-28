@@ -14,8 +14,8 @@ post_style: page
 and a shell function to fuzzy search and select among them.
 
 ```bash
-git clone https://github.com/doctorfree/nvim-lazyman $HOME/.config/nvim-Lazyman
-$HOME/.config/nvim-Lazyman/lazyman.sh
+git clone https://github.com/doctorfree/nvim-lazyman $HOME/.config/lazyman/Lazyman
+$HOME/.config/lazyman/Lazyman/lazyman.sh
 ```
 
 ## Install the LazyIde Neovim configuration
@@ -29,8 +29,8 @@ Alternately, use the `lazyman` command menu interface to install `LazyIde`.
 ## Configure the shell environment
 
 ```bash
-export NVIM_APPNAME="nvim-LazyIde"
-alias nvim="NVIM_APPNAME=nvim-LazyIde nvim"
+export NVIM_APPNAME="lazyman/LazyIde"
+alias nvim="NVIM_APPNAME=lazyman/LazyIde nvim"
 ```
 
 Alternately, use the `nvims` Lazyman shell function and select `LazyIde`.
