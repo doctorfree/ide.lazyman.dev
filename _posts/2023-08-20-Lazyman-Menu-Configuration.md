@@ -33,6 +33,11 @@ management of Neovim configurations include:
 The `lzyide_config.sh` script is installed in `~/.config/nvim-Lazyman/scripts/`.
 
 This script is used to display the `LazyIde` configuration sub-menus in `lazyman`.
+LazyIde Neovim configuration settings are managed via this menu by invoking the
+[get_conf.lua script](https://ide.lazyman.dev/configuration). This script
+leverages a new feature in Neovim 0.9+ which enables command line execution
+of Neovim to read and execute a Lua script in the runtime environment. See the
+[Configuration section](https://ide.lazyman.dev/configuration) for more info.
 
 The source code for the `lzyide_config.sh` script:
 
